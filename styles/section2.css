@@ -1,0 +1,79 @@
+
+.section2 {
+    width: 99.89%;
+    height: 76.7rem;
+    background-color: #E5EDF9;
+    padding: 6% 10% 5% 10%;
+    /* padding: 10% 12%; */
+    /* border: 1px solid red; */
+    /* background-color: red; */
+}
+.section2_inside {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2.5fr 2.5fr 14fr; 
+}
+.section2 div {
+    /* border: 1px solid red; */
+    text-align: center;
+    display: grid;
+}
+.our_goals_text {
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #FF0000;
+}
+.un_goals_text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 3.6rem;
+}
+.un_goals_text_inside{
+    height: 85%;
+    width: 35%;
+    align-items: center;
+    border-bottom: 0.3rem solid #FF0000;
+}
+.section2_intro {
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.un_goals_elements {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.un_element {
+    margin: 10% 12%;
+    display: grid;
+    grid-template-rows: 45% 55%;
+}
+.un_goal_text_container {
+    margin: 8%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.ungoal_element1 .un_img_container {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.sdg8{
+    max-width: 100%;
+    width: 100%;
+    height: 92%;
+}
+.sdg9, .sdg11, .sdg17 {
+    max-width: 100%;
+    width: 100%;
+    height: 97%;
+}
