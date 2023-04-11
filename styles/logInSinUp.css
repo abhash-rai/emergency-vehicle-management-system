@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.2s cubic-bezier(.79,.14,.15,.86);
+}
+.footer_section {
+    box-sizing:content-box;
+}
+.logInSignUpContainer a {
+    text-decoration: none;
+}
+.logInSignUpContainer {
+    overflow-x: hidden;
+
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+
+    /* font-size: 10vw; */
+    z-index: 100;
+    box-sizing:content-box;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logInSignUpContainer div {
+    /* border: 1px solid red; */
+}
+
+.logInContainer{
+    background: rgb(16,81,134);
+    background: linear-gradient(150deg, rgba(16,81,134,1) 0%, rgba(70,152,217,1) 100%);
+}
+.SignUpContainer {
+    background-color: #9AB0D7;
+}
+
+
+
+
+
+.logInContainer div {
+    /* border: 1px solid red; */
+}
+.logInContainer {
+    display: grid;
+    grid-template-rows: 30% 70%;
+
+    padding: 20% 10%;
+}
+
+.wlcomeBackText {
+    /* display: grid;
+    align-items: center;
+    place-items: center; */
+    text-align: center;
+
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 3.4vw;
+}
+.logInMobileViewToCreateAccount {
+    display: none;
+}
+.logInForm {
+    height: 100%;
+    font-family: 'Anek Latin', sans-serif;
+    
+    display: grid;
+    grid-template-rows: 24% 24% 20% 12% 20%;
+}
+.logInOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.forgetPasswordOption {
+    text-align: right;
+}
+.logInForm input[type=email], .logInForm input[type=password] {
+    width: 100%;
+}
+
+.logInEmailSection, .logInPasswordSection {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.logInInputFieldContainer_outer {
+    height: 100%;
+}
+
+.logInInputFieldContainer {
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.logInLabel {
+    font-size: 1.5vw;
+}
+.logInIcons {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 0;
+}
+.logInInputFieldContainer input {
+    border: 1px solid white;
+}
+.logInOptions {
+    font-size: 1.3vw;
+}
+
+.logInButton {
+    /* border: 1px solid red; */
+}
+.logInButton input {
+    width: 100%;
+    height: 70%;
+
+    background-color: #2B314A;
+    border: 0;
+
+    font-size: 1.5vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logInButton input:hover {
+    background-color: #9AB0D7;
+    /* color: #2B314A; */
+}
+.logInIcons {
+    display: grid;
+    place-items: center;
+}
+.logInIcons img {
+    height: 70%;
+}
+
+
+
+
+
+
+
+.SignUpContainer div {
+    /* border: 1px solid red; */
+    /* height: 100%; */
+}
+
+.SignUpContainer {
+    height: 100%;
+    padding: 5% 10% 12% 10%;
+    
+
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+}
+.signUpForm {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 12% 20% 12% 12% 12% 12%;
+    
+    row-gap: 4%;
+}
+.createAccountContainer {
+    display: grid;
+    grid-template-columns: 28% 44% 28%;   
+}
+.horizontalLine, .createAccountText, .horizontalLine {
+    display: grid;
+    place-items: center;
+
+    color: #2B314A;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+.signUpElementIntro {
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
+.horizontalLine_inner {
+    width: 100%;
+    height: 5%;
+    background-color: #2B314A;
+}
+.signUpNameSection input, .signUpEmailSection input, .signUpPasswordSection input {
+    border: 0;
+}
+.signUpInputFieldContainer {
+    /* height: 70%; */
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    /* grid-template-rows: 100%; */
+}
+.signUpIcons {
+    background-color: white;
+    display:grid;
+    place-items: center;
+}
+.signUpIcons img {
+    height: 70%;
+}
+.signUpButton {
+    /* border: 1px solid red; */
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+.signUpButton input {
+    width: 100%;
+    height: 100%;
+
+    background-color: #2B314A;
+    border: 0;
+
+    font-size: 1.5vw;
+    font-weight: 500;
+    cursor:pointer;
+}
+.signUpButton input:hover {
+    background-color: #3582bf;
+}
+.signUpEmailSection, .signUpInputFieldContainer_outer, .signUpInputFieldContainer {
+    padding: 0;
+    height: 90%;
+}
+
+.signUpEmailSection {
+    /* border: 1px solid green; */
+    padding: 0;
+    margin: 0;
+}
+.signUpInputFieldContainer_outer {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.signUpInputField::placeholder {
+    color: #0000007f;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+.logInInputField, .signUpInputField {
+    color: #000000;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .logInSignUpContainer{
+        height: 570px;
+    }
+}
+@media (max-width: 1000px) {
+    .logInSignUpContainer{
+        height: 510px;
+    }
+}
+@media (max-width: 800px) {
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 3.5vw;
+    }
+    .logInSignUpContainer{
+        height: 120vh;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: auto;
+    }
+    .logInSignUpContainer input {
+        font-size: 2.3vw;
+    }
+    .logInContainer {
+        padding: 4% 5%;
+        grid-template-rows: 32% 68%;
+    }
+    .logInContainer div {
+        /* border: 1px solid red; */
+    }
+    .logInForm {
+        grid-template-rows: 32% 32% 15% 1% 20%;
+    }
+    .logInInputFieldContainer {
+        grid-template-columns: 1fr 9fr;
+    }
+    .logInEmailSection, .logInPasswordSection {
+        grid-template-rows: 1fr 3fr;
+    }
+    .logInIcons img {
+        height: 60%;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 2.3vw;
+    }
+    .wlcomeBackText {
+        font-size: 4.5vw;
+    }
+    .logInMobileViewToCreateAccount {
+        display:block;
+        text-decoration: none;
+        color: #2B314A;
+        font-size: 3vw;
+    }
+    .logInMobileViewToCreateAccount:hover {
+        color:#9AB0D7;
+        font-weight: 600; 
+    }
+    .logInButton input{
+        height: 100%;
+    }
+
+
+
+    .SignUpContainer {
+        padding: 4% 5%;
+    }
+    .signUpElementIntro {
+        display: none;
+    }
+    .horizontalLine {
+        opacity: 0;
+    }
+    .createAccountContainer {
+        width: 100%;
+        grid-template-columns: 4fr 2fr 4fr;
+        /* place-items: center; */
+    }
+    .createAccountText {
+        font-size: 4vw;
+    }
+    .createAccountText {
+        /* border: 1px solid green; */
+        /* width: 10%; */
+        text-align: center;
+        align-items: center;
+    }
+    .signUpForm {
+        grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+        
+        row-gap: 3%;
+    }
+    .signUpIcons img {
+        height: 65%;
+    }
+    .signUpButton {
+        padding-top: 1%;
+    }
+    .signUpButton input{
+        background-color: #307BB7;
+    }
+    .signUpButton input:hover {
+        background-color: #2B314A;
+    }
+    .signUpInputField::placeholder {
+        font-size: 2.3vw;
+    }
+    .signUpForm div {
+        /* border: 1px solid red; */
+    }
+}
+@media (max-width: 700px) {
+    
+    .logInSignUpContainer{
+        height: 115vh;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        overflow-x:hidden;
+        /* background-color: yellow; */
+    }
+    .logInSignUpContainer{
+        height: 110vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 3vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 3vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 6.5vw;
+    }
+}
+@media (max-width: 400px) {
+    body {
+        overflow-x:hidden;
+        /* background-color: yellow; */
+    }
+    .logInSignUpContainer{
+        height: 100vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 4vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 4vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 8vw;
+    }
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 5vw;
+    }
+    .logInMobileViewToCreateAccount {
+        font-size: 5vw;
+    }
+}
+@media (max-width: 300px) {
+    .logInSignUpContainer{
+        height: 90vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 5vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 5vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 10vw;
+    }
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 5vw;
+    }
+}

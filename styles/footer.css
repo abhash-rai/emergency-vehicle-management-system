@@ -1,0 +1,205 @@
+.footer_section div a {
+    text-decoration: none;
+    transition: color 0.3s cubic-bezier(.46,.03,.52,.96);
+}
+.footer_section a:hover {
+    color: #D45804;
+}
+
+
+.footer_section {
+    padding: 2vw 4.4%;
+    /* width: 100%; */
+    background-color: black;
+    height: 30vh;
+
+    font-family: 'Inter', sans-serif;
+}
+.footer_section a{
+    color: white;
+}
+.footer_container {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 26% 20% 40%;
+    column-gap: 7%;
+    grid-template-rows: 47% 25%;
+    row-gap: 28%;
+}
+.footer_container div {
+    /* border: 1px solid red; */
+}
+
+.footer_item_top_left div {
+    margin: 0 auto;
+}
+.footer_item_top_left .NEPA, .footer_item_top_left .WORKS{
+    color: white;
+    font-size: 3.66vw;
+}
+.footer_item_top_left .NEPA{
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 800;
+}
+.footer_item_top_left .WORKS{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: 200;
+}
+
+
+.footer_item_top_mid {
+    color: white;
+}
+.footer_item_top_mid div:first-child {
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+.footer_item_top_mid div:last-child {
+    font-size: 1.33vw;
+    font-weight: 200;
+}
+
+.footer_item_top_right div:first-child {
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: white;
+    width: 55%;
+}
+.footer_item_top_right div:last-child {
+    width: 55%;
+}
+.footer_icons_container div{
+    margin: auto 0;
+}
+.footer_icons_container img{
+    width: 3vw;
+    height: auto;
+    margin: 0 auto;
+}
+.footer_item_bottom_left {
+    color: white;
+}
+.footer_item_bottom_left div:first-child{
+    margin: auto 0;
+    font-size: 1.6vw;
+    font-weight: 700;  
+}
+.footer_item_bottom_left div:last-child{
+    margin: auto 0;
+    font-size: 1.33vw;
+    font-weight: 200;
+    opacity: 70%;
+}
+
+.footer_item_bottom_mid div:first-child, .footer_item_bottom_mid div:last-child, .footer_item_bottom_right div:first-child div{
+    margin: auto 0;
+    font-size: 1.6vw;
+    font-weight: 700;  
+}
+
+.back_to_top_container {
+    font-size: 1.6vw;
+}
+
+
+@media (max-width: 1000px) {
+    .footer_section {
+        height: 25vh;
+    }
+}
+@media (max-width: 800px) {
+    .footer_section {
+        height: 22vh;
+    }
+}
+@media (max-width: 600px) {
+    .footer_section {
+        height: 22vh;
+        padding-top: 3%;
+        /* box-sizing: border-box; */
+    }
+    .footer_item_top_left, .footer_references_link, .footer_item_bottom_mid, .footer_item_bottom_right div:first-child{
+        /* display: none; */
+        visibility: hidden;
+    }
+    .footer_container {
+        height: 100%;
+    
+        display: grid;
+        grid-template-columns: 15% 20% 40%;
+        column-gap: 7%;
+        grid-template-rows: 47% 25%;
+        row-gap: 28%;
+    }
+
+    .footer_item_top_mid {
+        width: 180%;
+        height: 180%;
+        position: relative;
+        left: -85%;
+    }
+    .footer_item_top_mid div:first-child {
+        font-size: 3vw;
+    }
+    .footer_item_top_mid div:last-child {
+        font-size: 2.5vw;
+    }
+
+    .footer_item_top_right div:first-child, .footer_item_top_right div:last-child {
+        width: 100%;
+        font-size: 3vw;
+    }
+    .footer_item_top_right {
+        height: 130%;
+        position: relative;
+        left: 20%;
+    }
+    .footer_icons_container img{
+        width: 60%;
+        left: 25%;
+        position: relative;
+    }
+
+
+    .footer_item_bottom_left {
+        width: 180%;
+        position: relative;
+        left: 478%;
+        top: -120%;
+    }
+    .footer_item_bottom_left div:last-child {
+        font-size: 2.3vw;
+    }
+
+    .back_to_top_container {
+        font-size: 2.5vw;
+    }
+    .footer_item_bottom_right div:last-child {
+        width: 150%;
+        position: relative;
+        left: -85%;
+        top: -5%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .footer_section {
+        height: 19vh;
+    }
+}
+@media (max-width: 400px) {
+    .footer_section {
+        height: 16vh;
+    }
+}
+@media (max-width: 350px) {
+    .footer_section {
+        height: 14vh;
+    }
+}
+@media (max-width: 300px) {
+    .footer_section {
+        height: 12vh;
+    }
+}

@@ -1,0 +1,902 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.2s cubic-bezier(.79,.14,.15,.86);
+}
+body {
+    overflow-x: hidden;
+}
+.footer_section {
+    box-sizing:content-box;
+}
+
+.profile_section_outer {
+    height: 260vh;
+    position: relative;
+}
+
+.profile_section_inner_top div {
+    /* border: 1px solid red; */
+}
+.profile_section_inner_top {
+    height: 73%;
+    /* background-color: yellow; */
+
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+.cover_picture_section {
+    grid-column: 1/3;
+
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.display_picture {
+    width: 20vw;
+    height: 20vw;
+
+    position:absolute;
+    top: 8%;
+    left: 7%;
+
+    z-index: 9;
+    border-radius: 50%;
+
+    background-image: url('../images/dp4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills_section {
+    background-color: #327EBA;
+    padding: 45% 13% 15% 13%;
+}
+.download_resume_button , .skills_title_text, .skills_list {
+    /* border: 1px solid red; */
+
+    display: grid;
+    place-items: center;
+}
+.skills_section_inner {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 10fr;
+    row-gap: 3%;
+
+    font-family: 'Jost', sans-serif;
+}
+.download_resume_button button {
+    cursor: pointer;
+    border: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.7vw;
+    width: 100%;
+    height: 100%;
+
+    background: rgb(14,72,119);
+    background: linear-gradient(97deg, rgba(14,72,119,1) 0%, rgba(11,38,61,1) 100%); 
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    transition: all 0.2s linear;
+}
+.download_resume_button button:hover {
+    width: 110%;
+    height: 110%;
+    font-weight: 700;
+    background: #33BA03;
+}
+.skills_title_text {
+    font-size: 2.3vw;
+    font-weight: 600;
+}
+.skills_list {
+    font-size: 1.23vw;
+}
+.skills_list ul li {
+    padding: 2%;
+}
+
+
+.profile_info {
+    background-color: #324D76;
+    display: grid;
+    grid-template-rows: 5% 4fr 3fr 6fr;
+    padding: 5% 8%;
+    row-gap: 4%;
+
+    font-family: 'Jost', sans-serif;
+}
+.profile_info div {
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+.user_title_and_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.user_title_and_links div {
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+}
+.user_full_anem {
+    color: #CEBF34;
+    font-weight: 700;
+    font-size: 2.3vw;
+
+    border-right: 0.2vw solid white;
+}
+.user_profession {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.55vw;
+}
+.user_media_links_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.user_media_links_container a {
+    width: 100%;
+    height: 100%;
+}
+.user_media_links_container a img {
+    width: 70%;
+}
+.user_media_links_container a img:hover{
+    width: 77%;
+}
+
+
+
+.review_stats {
+    padding: 0% 14%;
+}
+.stats_container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+.stats_item {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    column-gap: 7%
+}
+.stat_item_left {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.35vw;
+
+    display: grid;
+    text-align: left;
+    align-items: center;
+    
+}
+.stat_item_right {
+    font-family: 'Jost', sans-serif;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+.number_of_reviews {
+    color: #60B638;
+    font-size: 1.35vw;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.stars_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.star {
+    display: grid;
+    place-items: center;
+}
+.star img {
+    width: 80%;
+}
+
+
+
+.user_basic_info {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 9%;
+    padding: 5% 0%;
+}
+.basic_intro_row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7%;
+}
+.basic_intro_left {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.9vw;
+    font-weight: 700;
+}
+.basic_intro_right {
+    color: #CEBF34;
+    display: grid;
+    align-items: center;
+    text-align: right;
+
+    font-size: 1.9vw;
+    font-weight: 700;
+
+    /* padding: 5%;
+    box-sizing: border-box; */
+}
+.languages .basic_intro_right {
+    color: #CEBF34;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    align-items: center;
+    text-align: right;
+
+    font-size: 1.9vw;
+    font-weight: 700;
+
+    /* padding: 5%;
+    box-sizing: border-box; */
+}
+.basic_intro_row div {
+    /* border: 1px solid red; */
+}
+.basic_intro_right a {
+    text-decoration: none;
+    border: 2px solid white;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+.basic_intro_right a:hover {
+    border: none;
+    background-color:#327EBA;
+}
+
+
+
+
+
+
+
+.ratings_and_reviews {
+    /* border: 1px solid red; */
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 2fr 10fr;
+}
+.ratings_and_reviews div {
+    /* border: 1px solid red; */
+}
+.rating_section_title {
+    font-size: 1.9vw;
+    font-weight: 700;
+}
+.review_arrow_left {
+    width: 4vw;
+    position: absolute;
+    left: -4%;
+    top: 36%;
+}
+.review_arrow_right {
+    transform: scaleX(-1);
+    width: 4vw;
+    position: absolute;
+    left: 96%;
+    top: 36%;
+}
+.review_arrow path:hover {
+    fill-opacity: 1;
+}
+.review_slideable {
+    overflow-x:scroll;
+    display: grid;
+    grid-template-columns: repeat(3, 48%);
+    grid-template-rows: 95%;
+    column-gap: 5%;
+}
+.review_slideable div {
+    /* border: 1px solid red; */
+}
+.review {
+    background-color: #2B314A;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 2fr 2fr 2fr 6fr;
+
+    font-family: 'Inter', sans-serif;
+
+    padding: 5%;
+}
+.review_dp, .review_name, .review_address, .review_star, .review_description {
+    padding: 2%;
+}
+.review_dp {
+    grid-row: 1/3;
+}
+.review_star, .review_description {
+    grid-column: 1/3;
+}
+.review_dp, .review_description {
+    display: grid;
+    place-items: center;
+}
+.review_dp_container {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+.review_dp_container1 {
+    background-image: url('../images/dp1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.review_dp_container2 {
+    background-image: url('../images/dp2.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.review_dp_container3 {
+    background-image: url('../images/dp3.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.review_name {
+    font-size: 1.75vw;
+    font-weight: 700;
+}
+.review_address {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.review_star {
+    padding: 0;
+}
+.review_stars_container {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+}
+.review_stars_container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.review_stars_container .star {
+    height: 100%;
+}
+.review_stars_container .star img {
+    height: 90%;
+}
+.review_description {
+    font-size: 1.05vw;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+.posted_jobs_section {
+    height: 27%;
+    background-color: #121919;
+    padding: 3% 8%;
+}
+.posted_jobs_section div {
+    /* border: 1px solid red; */
+}
+.posted_jobs_section_inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr;
+    row-gap: 3%;
+}
+.title {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+.intro {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.3vw;
+}
+.container{
+    background-color: #324D76;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 100%;
+    padding: 2.5%;
+}
+.container_left {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    column-gap: 3%;
+    grid-template-rows: 2fr 5fr;
+    row-gap: 10%;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 1.3vw;
+}
+.container_left div {
+    height: 100%;
+}
+.job_title, .job_pay, .job_describle {
+    background-color: #327EBA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1%;
+    box-sizing: border-box;
+}
+.job_title span {
+    float: right;
+    color: #2B314A;
+}
+.job_describle {
+    grid-column: 1/3;
+}
+
+
+
+.container_right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    padding: 12% 20%;
+}
+.container_right div {
+    display: grid;
+    place-items: center;
+    height: 100%
+}
+.container_right div button {
+    width: 100%;
+    height: 70%;
+    color: #33BA03;
+    background-color: #2B314A;
+    border: 0;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container_right div button:hover {
+    color: #2B314A;
+    background-color: #33BA03;
+    width: 110%;
+    height: 80%;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .profile_section_outer {
+        height: 220vh;
+    }
+    .skills_list li {
+        font-size:1.21vw;
+    }
+}
+@media (max-width: 1100px) {
+    .profile_section_outer {
+        height: 210vh;
+    }
+    .skills_list li {
+        font-size:1.27vw;
+    }
+}
+@media (max-width: 1000px) {
+    .profile_section_outer {
+        height: 200vh;
+    }
+    .skills_list li {
+        font-size:1.27vw;
+    }
+}
+@media (max-width: 900px) {
+    .profile_section_outer {
+        height: 190vh;
+    }
+    .skills_list li {
+        font-size:1.33vw;
+    }
+}
+@media (max-width: 900px) {
+    .profile_section_outer {
+        height: 180vh;
+    }
+    .skills_list li {
+        font-size:1.33vw;
+    }
+}
+@media (max-width: 800px) {
+    .profile_section_outer {
+        height: 170vh;
+    }
+    .skills_list li {
+        font-size:1.33vw;
+    }
+}
+@media (max-width: 700px) {
+    .profile_section_outer {
+        height: 160vh;
+    }
+    .skills_list li {
+        font-size:1.35vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile_section_outer {
+        height: 330vh;
+    }
+    .profile_section_inner_top {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 7fr 0fr;
+    }
+    .cover_picture_section {
+        grid-column:auto;
+    }
+
+
+
+
+    .display_picture {
+        width:30vw;
+        height:30vw;
+        top: 4%;
+        left: 7%;
+    }
+    .user_full_anem {
+        position: absolute;
+        top: 8.3%;
+        left: 40%;
+        font-size: 4vw;
+        width: 28%
+    }
+    .user_profession{
+        position: absolute;
+        top: 10.5%;
+        left: 42%;
+        font-size: 3.5vw;
+        width: 30%
+    }
+    .linkedin_icon{
+        position: absolute;
+        top: 8.5%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+        width: 10%
+    }
+    .email_icon{
+        position: absolute;
+        top: 10.7%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+        width: 10%
+    }
+    .twitter_icon{
+        position: absolute;
+        top: 12.9%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+        width: 10%
+    }
+
+
+    .review_stats {
+        position: relative;
+        top: 25%;
+        padding: 0% 5%;
+    }
+    .stat_item_left, .number_of_reviews{
+        font-size: 2.3vw;
+    }
+
+
+    .user_basic_info {
+        height: 90%;
+        position: relative;
+        top: 15%;
+    }
+    .basic_intro_left, .basic_intro_right, .basic_intro_right a {
+        font-size: 3.2vw;
+    }
+
+
+
+    .ratings_and_reviews {
+        /* border: 1px solid red; */
+        grid-template-rows: 1fr 10fr;
+        
+    }
+    .ratings_and_reviews div {
+        /* border: 1px solid red; */
+    }
+    .rating_section_title {
+        font-size: 4vw;
+        position: relative;
+        padding-left: 5%;
+    }
+    .review_slideable {
+        grid-template-columns: repeat(3, 100%);
+        column-gap: 10%;
+        padding: 0% 5%;
+    }
+    .review {
+        background-color: #2B314A;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        grid-template-rows: 1fr 1fr 2fr 4fr;
+        font-family: 'Inter', sans-serif;
+        padding: 6%;
+    }
+    .review_dp_container {
+        width: 15vw;
+        height: 15vw;
+    }
+    .review_name {
+        font-size: 4vw;
+        display: grid;
+        align-items: center;
+    }
+    .review_address {
+        font-size: 3.3vw;
+        display: grid;
+        align-items: center;
+    }
+    .review_description {
+        font-size: 2.5vw;
+    }
+
+
+
+    .profile_info {
+        order: 2;
+        width: 100%;
+    }
+    .download_resume_button {
+        /* display:none; */
+        position:absolute;
+        top:12.6%;
+        left: 13.5%;
+        width: 57%;
+        height: 2%;
+    }
+    .download_resume_button button{
+        font-size: 3vw;
+    }
+    .skills_section {
+        order: 3;
+        width: 100%;
+        padding: 5% 7%;
+    }
+    .skills_section_inner {
+        grid-template-rows: 1fr 10fr;
+        row-gap: 3%;
+    }
+    .skills_title_text{
+        font-size:4vw;
+    }
+    .skills_list li {
+        font-size:2.2vw;
+    }
+    .profile_section_inner_top {
+        height: 80%;
+    }
+    .posted_jobs_section {
+        height: 20%;
+        padding: 3% 8%;
+    }
+
+
+
+    .container {
+        padding: 2.5% 2.5% 2.5% 4%;
+      }
+    .posted_jobs_section div {
+        /* border:1px solid red; */
+    }
+    .posted_jobs_section_inner .title {
+        font-size:4vw;
+        position: relative;
+        top: 20%;
+    }
+    .posted_jobs_section_inner .intro {
+        font-size:2.2vw;
+    }
+    .posted_jobs_section_inner {
+        grid-template-rows: 1fr 2fr 9fr;
+        row-gap: 2%;
+    }
+    .posted_jobs_section_inner .container {
+        height: 93%;
+    }
+    .container_left {
+        column-gap: 3%;
+        row-gap: 5%;
+        font-size: 2.2vw;
+    }
+    .job_title {
+        display: grid;
+    }
+    .job_title span {
+        float:none;
+    }
+
+
+
+
+    .container_right {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 45% 20%;
+    }
+    .container_right div button {
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+
+
+    .review_arrow_left {
+        width: 10vw;
+        position: absolute;
+        left: -2%;
+        top: 350%;
+    }
+    .review_arrow_right {
+        transform: scaleX(-1);
+        width: 10vw;
+        position: absolute;
+        left: 89%;
+        top: 350%;
+    }
+}
+@media (max-width: 588px) {
+    .profile_section_outer {
+        /* height: 310vh; */
+    }
+
+    .display_picture {
+        top: 4%;
+        left: 7%;
+    }
+    .user_full_anem {
+        top: 8.3%;
+        left: 40%;
+    }
+    .user_profession{
+        top: 10.5%;
+        left: 42%;
+    }
+    .linkedin_icon{
+        top: 8.5%;
+        left: 78%;
+    }
+    .email_icon{
+        top: 10.7%;
+        left: 78%;
+    }
+    .twitter_icon{
+        top: 12.9%;
+        left: 78%;
+    }
+    .download_resume_button {
+        top:12.6%;
+        left: 13.5%;
+    }
+}
+@media (max-width: 550px){
+    .profile_section_outer {
+        height: 310vh;
+    }
+    .display_picture {
+        width:30vw;
+        height:30vw;
+        top: 3.7%;
+        left: 7%;
+    }
+    .user_full_anem {
+        top: 8.3%;
+        left: 40%;
+        font-size: 4vw;
+    }
+    .user_profession{
+        top: 10.5%;
+        left: 42%;
+        font-size: 3.5vw;
+    }
+    .linkedin_icon{
+        position: absolute;
+        top: 8.5%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+    }
+    .email_icon{
+        position: absolute;
+        top: 10.7%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+    }
+    .twitter_icon{
+        position: absolute;
+        top: 12.9%;
+        left: 78%;
+        /* font-size: 3.5vw; */
+    }
+    .download_resume_button {
+        top:12.6%;
+        left: 13.5%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .profile_section_outer {
+        height: 290vh;
+    }
+    .display_picture {
+        width:30vw;
+        height:30vw;
+        top: 4.5%;
+        left: 7%;
+    }
+}
+
+@media (max-width:450px) {
+    .profile_section_outer {
+        height: 250vh;
+    }
+}
+
+@media (max-width:400px) {
+    .profile_section_outer {
+        height: 210vh;
+    }
+}
+@media (max-width:375px) {
+    .profile_section_outer {
+        height: 190vh;
+    }
+}
+@media (max-width:325px) {
+    .profile_section_outer {
+        height: 175vh;
+    }
+}
+@media (max-width:300px) {
+    .profile_section_outer {
+        height: 150vh;
+    }
+}
