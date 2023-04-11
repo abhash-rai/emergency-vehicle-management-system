@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="./styles/html.css" />
+    <link rel="stylesheet" href="/styles/html.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,7 +21,39 @@
 </head>
 
 <body>
-    <div>Hi</div>
-</body>
+    <header>
+        <div class="logo-left">
+            <img src="/images/company logo.jpg" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">INTRO</a></li>
+                <li><a href="#">OUR GOALS</a></li>
+                <li><a href="#">DESIGN STORY</a></li>
+                <li><a href="#">RESULTS</a></li>
+                <li><a href="#">PLEDGE</a></li>
+                <li><a href="#">TEAM</a></li>
+            </ul>
+        </nav>
+        <div class="logo-right">
+            <img src="/images/Logo.jpg" alt="Company Logo">
+        </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+    </header>
 
-</html>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const menu = document.querySelector("ul");
+    
+        hamburger.addEventListener("click", function() {
+          hamburger.classList.toggle("open");
+          menu.classList.toggle("open");
+        });
+      </script>
+    </body>
+    
+    </html>

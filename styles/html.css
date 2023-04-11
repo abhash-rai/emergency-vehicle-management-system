@@ -1,3 +1,140 @@
 html {
     font-size: 10px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 9rem;
+    background-color: #FFFFFF;
+}
+
+.logo-left,
+.logo-right {
+    justify-self: center;
+}
+
+.logo-left img {
+    padding-left: 8rem;
+    width: 19.2rem;
+    height: 7.3rem;
+}
+
+.logo-right img {
+    padding-right: 8rem;
+    width: 20.446rem;
+    height: 4.496rem;
+}
+
+nav {
+    justify-self: stretch;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-column-gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 9rem;
+        padding: 1rem;
+    }
+  
+    .logo-left {
+        display: none;
+    }
+  
+    .logo-right {
+        display: none;
+    }
+  
+    nav {
+        justify-self: center;
+        align-self: end;
+    }
+  
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+        margin: 0; /* Remove the margin */
+        padding: 0; /* Remove the padding */
+    }
+  
+    ul.open {
+        transform: translateY(0);
+    }
+  
+    li {
+        margin: 0.5rem 0;
+    }
+  
+    a {
+        font-size: 1.6rem;
+    }
+  
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+  
+    .hamburger div {
+        width: 100%;
+        height: 0.3rem;
+        background-color: #333;
+        margin: 0.6rem auto;
+        transition: all 0.3s ease-in-out;
+    }
+  
+    .hamburger.open div:nth-child(1) {
+        transform: translateY(0.6rem) rotate(45deg);
+    }
+  
+    .hamburger.open div:nth-child(2) {
+        opacity: 0;
+    }
+  
+    .hamburger.open div:nth-child(3) {
+        transform: translateY(-0.6rem) rotate(-45deg);
+    }
+    .hamburger span {
+        display: none;
+    }
+}
