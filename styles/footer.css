@@ -1,0 +1,172 @@
+.footer {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 48fr 0.5fr 52fr;
+    grid-template-rows: 85% 15%;
+    color: white;
+    /* padding: 5% 7%; */
+}
+.novo_mid_vertical_line {
+    padding: 10% 5%;
+    /* background-color: rgba(255, 255, 255, 0.479); */
+}
+.line {
+    position: relative;
+    top: 15%;
+    width: 50%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+.footer div {
+    /* border: 1px solid red; */
+}
+.copyright_text {
+    grid-column: 1 / span 3;
+
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    opacity: 50%;
+}
+.footer_left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8% 5%;
+}
+.innovation_fest_info {
+    display: grid;
+    grid-template-rows: 6fr 3fr 1.5fr;
+}
+.innovation_logo {
+    display: grid;
+    align-items: center;
+    place-content: center;
+}
+.innovation_logo {
+    height: 100%;
+}
+.innovation_desc {
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+}
+.innovation_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 50%;
+}
+.footer_logos {
+    height: 100%;
+}
+.inno_links {
+    display: grid;
+    place-content: center;
+}
+
+
+.innovation_fest_contact {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    row-gap: 10%;
+}
+.inno_contact_text {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.inno_contact_info, .inno_email {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    font-size: 1.5rem;
+}
+.inno_address, .inno_email_text {
+    padding-right: 20%;
+}
+.inno_address_logo, .inno_email_logo {
+    display: grid;
+    padding: 0 20%;
+}
+.inno_address_logo img, .inno_email_logo img {
+    width: 100%;
+}
+
+
+.footer_right {
+    padding: 9% 5%;
+}
+.footer_right_inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 9fr 11fr;
+    column-gap: 5%;
+}
+.novoqo_info {
+    display: grid;
+    grid-template-rows: 3fr 1fr 0.5fr 1fr 1fr 1fr;
+    /* padding-left: 7%; */
+}
+.novoqo_slogan {
+    text-align: center;
+}
+.novoqo_slogan, .novoqo_address, .novoqo_email, .novoqo_phone {
+    font-size: 1.5rem;
+    display: grid;
+    align-items: center;
+}
+.novo_logo {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+}
+.novoqo_logo img {
+    max-width: 90%;
+}
+.novoqo_logo_pngs {
+    display: grid;
+    place-items: center;
+}
+.novoqo_right {
+    padding-right: 10%;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 7%;
+}
+.back_to_top {
+    display: grid;
+    place-content: center;
+}
+.back_to_top a {
+    text-decoration: none;
+    color:chocolate;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.map {
+    grid-column: 1 / span 3;
+}
+.novoqo_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.novoqo_links img {
+    width: 80%;
+}
+.novo_links {
+    display: grid;
+    align-content: center;
+}
+.novo_links img {
+    width: 60%;
+}
+.map {
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
