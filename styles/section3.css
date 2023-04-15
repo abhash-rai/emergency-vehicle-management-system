@@ -1,0 +1,68 @@
+
+.section3 {
+    width: 99.89%;
+    height: 130rem;
+    /* background-color: #E5EDF9; */
+    /* padding: 5% 10% 5% 10%; */
+    /* padding: 10% 12%; */
+    /* border: 1px solid red; */
+    /* background-color: red; */
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.section3 div {
+    /* border: 1px solid red; */
+}
+.left {
+    padding: 28% 3%;
+}
+.img_container {
+    height: 80%;
+    display: grid;
+    align-items: center;
+}
+.img_container img {
+    width: 100%;
+}
+.right {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 1.5fr 5fr 5fr 5fr;
+    padding: 10% 9% 10% 3%;
+}
+.right .section_heading {
+    color: #FF0606;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 3rem;
+}
+.right .section_subheading {
+    /* color: #FF0606; */
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 5rem;
+}
+.right_item {
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+.item_heading {
+    font-size: 2rem;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+}
+.item_description {
+    font-size: 1.8rem;
+    /* display: none; */
+}
+.empathies {
+}
+.define {
+}
+.ideate {
+}
