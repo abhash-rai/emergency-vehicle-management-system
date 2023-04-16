@@ -1,0 +1,119 @@
+
+/* innovation fest */
+
+.nayan{
+    padding-top:5%;
+  }
+  
+  .imga img{
+    width:100%;
+    display: grid;
+    /* border:1px solid red; */
+  }
+  
+  .lol h1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 35%;
+  
+    transform: translate(-50%, -50%);
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.2;
+  
+    color: #FFFFFF;
+  }
+  
+  .fest{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid red;
+  }
+  
+  .project{
+    margin: 10%;
+  
+  }
+  
+  .project h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
+  
+  
+  color: #D80000;
+  }
+  
+  .project h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  
+  color: #000000;
+  
+  }
+  
+  
+  .project p{
+    text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  
+  color: #000000;
+  
+  }
+  
+  .vedio{
+    margin: 15%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+  }
+  
+  .fig img{
+    width:100%;
+  }
+  .git{
+   text-align: center;
+   margin-top: 15%;
+  }
+  
+  .black-button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    
+    .black-button:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 770px) {
+
+    .lol h1 {
+        font-size: 3.5rem;
+        line-height: 4.1rem;
+        padding-bottom: 25vh;
+      }
+    
+    
+    .imga img{
+      padding-top: 20%;
+    }}
