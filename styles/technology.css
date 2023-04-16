@@ -1,0 +1,66 @@
+.section_technology .header {
+    background-color: white;
+    color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  .section_technology h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  /*For sub-header */
+  .sub-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .section_technology h3 {
+    text-align: center;
+    font-size:3rem;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  /* for sub-denote*/
+  .sub-denote {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    /* margin-bottom: 125px; */
+  }
+  /*for boxes*/
+  .container {
+    height: 40rem;
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* margin-left: -5%; */
+    /* border: 1px solid red; */
+  }
+  .section_technology .box {
+    height: 90%;
+    width: 80%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #474E8D, #4b0082);
+  }
+  .section_technology .box:last-child {
+    margin-right: 0;
+  }
+        /* Responsive styles */
+        @media only screen and (max-width: 768px) {
+    .section_technology h1 {
+      font-size: 16px;
+    }
+    .sub-header {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .section_technology h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .sub-denote {
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+  }
