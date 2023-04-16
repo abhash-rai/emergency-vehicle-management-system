@@ -1,0 +1,61 @@
+
+/* prototype application */
+
+.type {
+    background-color: #E5EDF9;
+    padding-top: 5%;
+  }
+  
+  .top {
+    padding-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #FF0000;
+  
+  }
+  
+  
+  .proto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    text-align: center;
+  
+    color: #000000;
+  
+  }
+  
+  .proto p {
+    margin: 0% 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-align: center;
+  
+  }
+  
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    margin: 5% 10%;
+    /* border: 1px solid red; */
+    height:40vh;
+  }
+  
+  .div {
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  
