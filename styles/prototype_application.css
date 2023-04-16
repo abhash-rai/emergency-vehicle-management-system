@@ -31,6 +31,9 @@
     padding: 4% 0 0 0;
   }
   
+  .proto h1 {
+    font-size: 4rem;
+  }
   .proto p {
     margin: 0% 20%;
     /* font-family: 'Inter'; */
@@ -41,14 +44,13 @@
     text-align: center;
     padding: 3% 0 0 0;
   }
-  
   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
     margin: 5% 10%;
     /* border: 1px solid red; */
-    height:40vh;
+    height:30rem;
   }
   
   .div {
