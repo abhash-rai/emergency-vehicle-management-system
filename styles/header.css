@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 
 header {
     position: fixed;
@@ -7,89 +10,89 @@ header {
     background: white;
   
   
-  }
-  
-  .main {
+}
+
+.main {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     /* border:1px solid red; */
-  
-  
-  }
-  
-  .content_nav {
+
+
+}
+
+.content_nav {
     display: grid;
     grid-template-columns: 12% 18% 22% 12% 12% 12% 12%;
     list-style: none;
     margin-left: 5%;
     /* border: 1px solid red; */
     padding-top: 5%;
-  }
-  
-  .logo-right {
+}
+
+.logo-right {
     padding-top: 5%;
-  }
-  
-  .logo-left {
+}
+
+.logo-left {
     padding-top: 2%;
     margin-left: 25%;
-  }
-  
-  
-  .tab-nav {
-  
+}
+
+
+.tab-nav {
+
     outline: none;
     display: none;
-  
-  }
-  
-  .label {
-  
+
+}
+
+.label {
+
     display: none;
     color: black;
-  
-  }
-  
-  .burger {
-  
+
+}
+
+.burger {
+
     width: 35px;
     height: 5px;
     background-color: black;
     margin-top: 5px;
-  
-  }
-  
-  
-  .content_nav li {
+
+}
+
+
+.content_nav li {
     display: inline-block;
     padding-right: 10px;
     text-align: center;
-  
-  }
-  
-  .content_nav li a {
+
+}
+
+.content_nav li a {
     width: 2.875rem;
     height: 1.0625rem;
     left: 23.5rem;
     top: 2.3125rem;
-  
-    font-family: 'Inter';
+
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 600;
     line-height: 1rem;
     font-size: 1.3rem;
     letter-spacing: 0.006em;
     padding: 3.5rem 1.5rem;
-  
+
     text-transform: uppercase;
-  
+
     color: #000000;
-  
-  
-  }
-  
-  .content_nav li a::after {
-  
+
+
+}
+
+.content_nav li a::after {
+
     content: '';
     display: block;
     height: 2px;
@@ -100,14 +103,8 @@ header {
     transform-origin: right;
     transform: scale(0, 1);
     transition: transform ease-in-out 0.5s;
-  
-  }
-  
-  .content_nav li a:hover::after {
-  
-    transform: scale(1, 1);
-  
-  }
+
+}
   
   
   @media screen and (max-width: 1080px) {

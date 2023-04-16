@@ -8,7 +8,7 @@
   
   .top {
     padding-top: 3%;
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 700;
     font-size: 1.6rem;
@@ -20,7 +20,7 @@
   
   
   .proto {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 700;
     font-size: 3.6rem;
@@ -28,18 +28,18 @@
     text-align: center;
   
     color: #000000;
-  
+    padding: 4% 0 0 0;
   }
   
   .proto p {
     margin: 0% 20%;
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.2rem;
     text-align: center;
-  
+    padding: 3% 0 0 0;
   }
   
   .box {
