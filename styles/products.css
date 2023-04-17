@@ -1,0 +1,88 @@
+
+
+.pype {
+    background-color: #ECECEC;
+    padding-top: 5%;
+  }
+  
+  .pop {
+    /* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 700;
+font-size: 3.6rem;
+line-height: 4.4rem;
+text-align: center;
+color: #000000;
+  
+  }
+  
+  
+  .kroto {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    text-align: center;
+  
+    color: #000000;
+  
+  }
+  
+  .kroto p {
+    margin: 0% 20%;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-align: center;
+  
+  }
+  
+  .tox, .hox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    box-sizing: border-box;
+    /* margin: 5% 10%; */
+    /* border: 1px solid red; */
+    height:40vh;
+  }
+  .tox {
+    padding: 3% 10% 0 10%;
+    height: 40rem;
+  }
+  .hox {
+    padding: 0% 10% 4% 10%;
+    height: 35rem;
+  }
+  
+  .piv {
+    background-color: white;
+    color: black;
+    text-align: center;
+  
+  }
+  
+  .hox h1{
+    /* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4rem;
+text-align: center;
+color: #000000;
+
+  }
+  
+  .hox p{
+    /* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.2rem;
+text-align: center;
+color: #000000;
+
+  }

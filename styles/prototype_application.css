@@ -48,9 +48,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
-    margin: 5% 10%;
     /* border: 1px solid red; */
     height:30rem;
+  }
+  .box1{
+    padding: 5% 7% 2.5% 7%;
+  }
+  .box2 {
+    padding: 2.5% 7% 5% 7%;
   }
   
   .div {

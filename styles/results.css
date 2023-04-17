@@ -25,6 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 10%;
+    row-gap: 7%;
     padding: 1% 10% 2% 5%;
 }
 .first_container div {
