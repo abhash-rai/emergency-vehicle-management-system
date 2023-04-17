@@ -7,9 +7,7 @@ header {
     top: 0;
     z-index: 1;
     width: 100%;
-    background: white;
-  
-  
+    background-color: rgb(255, 255, 255);
 }
 
 .main {
@@ -22,11 +20,11 @@ header {
 
 .content_nav {
     display: grid;
-    grid-template-columns: 12% 18% 22% 12% 12% 12% 12%;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
     list-style: none;
-    margin-left: 5%;
+    /* margin-left: 0%; */
     /* border: 1px solid red; */
-    padding-top: 5%;
+    padding-top: 3.5%;
 }
 
 .logo-right {
@@ -37,6 +35,7 @@ header {
     padding-top: 2%;
     margin-left: 25%;
 }
+
 
 
 .tab-nav {
@@ -50,7 +49,6 @@ header {
 
     display: none;
     color: black;
-
 }
 
 .burger {
@@ -61,7 +59,6 @@ header {
     margin-top: 5px;
 
 }
-
 
 .content_nav li {
     display: inline-block;
@@ -87,8 +84,10 @@ header {
     text-transform: uppercase;
 
     color: #000000;
-
-
+}
+.content_nav li a:hover {
+  color: red;
+  /* font-size: 1.7rem; */
 }
 
 .content_nav li a::after {
