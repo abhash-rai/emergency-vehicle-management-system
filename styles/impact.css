@@ -41,7 +41,7 @@ color: #000000;
     margin-top: 2rem; */
 }
   
-.impact .box {
+/* .impact .box {
     width: 50rem;
     height: 30rem;    
     color: black;
@@ -50,6 +50,14 @@ color: #000000;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     background-color: gray;
+} */
+.analytics{
+    height: 45%;
+    margin-left: 80%;
+}
+.market{
+    height: 45%;
+    margin-left: 35%;
 }
 .impact .future{
     color: black;
