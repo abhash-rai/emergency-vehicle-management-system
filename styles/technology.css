@@ -50,6 +50,10 @@
     margin-left: 17%;
     margin-top: 15%;
   }
+  .box p{
+    text-align: center;
+    font-weight: bolder;
+  }
   .Python{
     width: 190%;
     margin-left: 35%;
