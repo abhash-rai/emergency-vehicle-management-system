@@ -61,3 +61,13 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+.hiv, .Kiv{
+    transition: transform 0.3s ease-in-out;
+}
+.hiv:hover, .Kiv:hover{
+    /* color: red; */
+    transform: scale(1.1);
+}
+.hiv:hover .niv h1:last-child, .Kiv:hover .niv h1:last-child{
+    color: red;
+}
