@@ -17,11 +17,16 @@
     margin-bottom: 1rem;
 }
 .impact .text{   
-    color: black;
-    padding: 20px;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+margin-bottom: 2rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.2rem;
+text-align: center;
+color: #000000;
+
 
 }
 .impact div {
@@ -55,11 +60,15 @@
     margin-bottom: 1rem;
 }
 .impact .afterfuture{
-    color: black;
-    padding: 20px;
+    margin-bottom: 2rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    color: #000000;
 }
 .hiv, .Kiv{
     transition: transform 0.3s ease-in-out;
