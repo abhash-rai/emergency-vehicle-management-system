@@ -31,13 +31,20 @@ color: #FF0000;
   
   }
   
-  .Lox, .Mox {
+  .Lox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
-    margin: 10% 10%;
+    margin:0 10%;
     /* border: 1px solid red; */
-    height:40vh;
+    /* height:40vh; */
+  }
+
+  .Mox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    margin: 10% 10%;
   }
   
   .hiv{
@@ -45,6 +52,14 @@ color: #FF0000;
     color: black;
     text-align: center;
   
+  }
+
+  .hiv img{
+    width:100%;
+  }
+
+  .Kiv img{
+    width:100%;
   }
   
 .pox{
@@ -60,7 +75,7 @@ color: #FF0000;
 
   .niv{
     text-align: center;
-    padding-top: 90%;
+    padding-top: 10%;
     
   }
 
@@ -68,7 +83,7 @@ color: #FF0000;
     background-color: white;
     color: black;
     text-align: center;
-    padding:0% 20%;
+    /* padding:0% 20%; */
 
   }
   
