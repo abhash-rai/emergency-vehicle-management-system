@@ -1,0 +1,57 @@
+.impact .head{
+    background-color: white;
+    color: red;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.impact .test{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.impact .text{   
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.impact .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+  
+.impact .box {
+    width: 50rem;
+    height: 30rem;    
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: gray;
+}
+.impact .future{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.impact .afterfuture{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
