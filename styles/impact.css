@@ -24,10 +24,16 @@
     margin-bottom: 1rem;
 
 }
+.impact div {
+    /* border: 1px solid red; */
+}
 .impact .row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10% 0 10%;
+    box-sizing: border-box;
+    /* justify-content: space-between;
+    margin-top: 2rem; */
 }
   
 .impact .box {
