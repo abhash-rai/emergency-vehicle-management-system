@@ -37,12 +37,40 @@
     /* margin-left: -5%; */
     /* border: 1px solid red; */
   }
-  .section_technology .box {
-    height: 90%;
+  /* .section_technology .box {
+    height: 80%;
     width: 80%;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, #5c618c, #0516fa);
+    border-radius: 12px;
+    background: grey
+  } */
+
+  .rfid_icon{
+    /* height: 100%; */
+    width: 250%;
+    margin-left: 17%;
+    margin-top: 15%;
   }
+  .Python{
+    width: 190%;
+    margin-left: 35%;
+    margin-top: 45%;
+  }
+  .wireless{
+    width: 200%;
+    margin-left: 25%;
+    margin-top: 45%;
+  }
+  .ml{
+    width: 200%;
+    margin-left: 25%;
+    margin-top: 45%;
+  }
+  .html{
+    width: 200%;
+    margin-left: 25%;
+    margin-top: 45%;
+  }
+  
   .section_technology .box:last-child {
     margin-right: 0;
   }
