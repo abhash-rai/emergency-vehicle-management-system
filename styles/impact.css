@@ -26,12 +26,11 @@ font-size: 1.8rem;
 line-height: 2.2rem;
 text-align: center;
 color: #000000;
+margin:4% 8%;
 
 
 }
-.impact div {
-    /* border: 1px solid red; */
-}
+
 .impact .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,6 +76,7 @@ color: #000000;
     line-height: 2.2rem;
     text-align: center;
     color: #000000;
+    margin:2% 8%;
 }
 .hiv, .Kiv{
     transition: transform 0.3s ease-in-out;
