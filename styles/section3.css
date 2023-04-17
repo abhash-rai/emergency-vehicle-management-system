@@ -27,8 +27,9 @@
 }
 .right {
     display: grid;
-    grid-template-rows: 1fr 1.5fr 1.5fr 5fr 5fr 5fr;
+    grid-template-rows: 1fr 1.5fr 5fr 5fr 5fr;
     padding: 10% 9% 10% 3%;
+    row-gap: 5%;
 }
 .right .section_heading {
     color: #FF0606;

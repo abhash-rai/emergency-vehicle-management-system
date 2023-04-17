@@ -51,9 +51,11 @@ color: #FF0000;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2%;
-    margin: 10% 10%;
+    padding-top:5%;
+    margin:0 10%;
     /* border: 1px solid red; */
-    height:40vh;
+    /* height:40vh; */
+    padding-bottom: 5%;
 }
 
   .niv{
