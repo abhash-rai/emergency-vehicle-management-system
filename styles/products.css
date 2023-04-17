@@ -58,13 +58,24 @@ color: #000000;
     height: 35rem;
   }
   
-  .piv {
+  /* .piv {
     background-color: white;
     color: black;
     text-align: center;
-  
+  } */
+  .description{
+    height: 50%;
+    margin-left: 15%;
   }
-  
+  .challenges{
+        height: 50%;
+    margin-left: 15%;
+  }
+
+  .different{
+    height: 50%;
+    margin-left: 15%;
+  }
   .hox h1{
     /* font-family: 'Inter'; */
 font-style: normal;
